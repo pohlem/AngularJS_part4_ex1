@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercice 7</title>
+	<script type="text/javascript" src="assets/AngularJS/angularjs-1.7.5.js"></script>
+	<script src="assets/js/script.js"></script>
+</head>
+<body ng-app="countApp">
+	<div ng-controller="CounterController">
+		<input type="button" name="increment" value='+' ng-click="count = count+1">
+		<input type="button" name="decrement" value='-' ng-click="count = count-1">
+		<p>{{count}}</p>
+	</div>
+</body>
+</html>
